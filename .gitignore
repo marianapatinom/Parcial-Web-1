@@ -1,0 +1,76 @@
+# ##################################################################
+# NODE.JS & DEPENDENCIAS
+# ##################################################################
+node_modules/
+jspm_packages/
+# Archivos de log de errores de npm/pnpm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ##################################################################
+# SECRETOS Y CONFIGURACIÓN LOCAL (¡CRÍTICO!)
+# ##################################################################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.pem
+*.key
+.node_repl_history
+
+# ##################################################################
+# COMPILACIÓN Y SALIDA (BUILD)
+# ##################################################################
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+# TypeScript: si prefieres no subir los archivos .js generados
+# *.tsbuildinfo
+
+# ##################################################################
+# TESTEO Y COBERTURA
+# ##################################################################
+coverage/
+.nyc_output
+.jest/
+# Reportes de Cypress
+cypress/videos/
+cypress/screenshots/
+
+# ##################################################################
+# SISTEMA OPERATIVO Y EDITORES
+# ##################################################################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# IntelliJ / WebStorm
+.idea/
+
+# ##################################################################
+# OTROS (DOCKER, LOGS, TEMPORALES)
+# ##################################################################
+logs
+*.log
+*.sqlite
+.pnpm-store/
